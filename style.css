@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle at 18.7% 37.8%, rgb(172, 142, 142) 0%, rgb(74, 91, 99) 90%); 
+}
+
+.form_style {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background: radial-gradient(circle at 18.7% 37.8%, rgb(150, 124, 124) 0%, rgb(115, 133, 141) 90%);    
+}
+
+.form_label_style {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form_number_style, .form_result_style {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.form_number_style {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+
+.result_button  {
+    height: 50px;
+    margin: 0 auto;
+    width: 120px;
+    background: #333;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    border: solid #404c5d 1px;
+    font-size: 17px;
+    color: rgb(10, 10, 10);
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    border-radius: 5px;
+    background: radial-gradient(circle at 18.7% 37.8%, rgb(141, 209, 120) 0%, rgb(199, 241, 227) 90%);
+  }
+  
+.result_button :hover {
+    box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+    color: #d6d6d6;
+    transition: 500ms;
+  }
+  
+.result_button :active {
+    box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+    color: #d6d6d6;
+    transition: 100ms;
+  }
+  
+.button__container{
+    display: flex;
+    align-items: center;
+}

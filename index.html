@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>SumOfNumbers</title>
+</head>
+<body>
+    <form class="form_style">
+        <label class="form_label_style" for="num1">Введіть перше число:</label>
+        <input class="form_number_style" type="number" id="num1">
+        
+        <label class="form_label_style" for="num2">Введіть друге число:</label>
+        <input class="form_number_style" type="number" id="num2">
+        <br>
+        
+        <label class="form_label_style" for="result">Результат:</label>
+        <input class="form_result_style" type="text" id="result" readonly>
+        <br>
+        <div class="button__container">
+        <button class="result_button" type="button" onclick="Sum()">Обчислити</button>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
